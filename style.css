@@ -1,8 +1,11 @@
 html, body {
   height: 100%;
   width: 100%;
-background-color: #077adf;
-    background-image: url('https://images5.alphacoders.com/777/777106.png');
+background-color: black;
+background-image: url('https://www.wallpapertip.com/wmimgs/146-1468180_scary-dark-forest-desktop-wallpaper-red-and-black.jpg');
+  background-attachment: fixed; 
+  background-size: cover;
+
 }
 .portfolio{
 
@@ -12,7 +15,33 @@ background-color: #077adf;
 }
 
 .text{
-    font-size: 30px;
+    font-size: 25px;
     color:white;
-    font-family: fantasy;
+    text-align: center;
+    position:relative;  top:-390px;
+  font-family: "Trirong", serif;
+
 }
+.square{
+  height: 460px;
+  width: 468px;
+  background-color: #831100;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 80px;
+}
+
+.button{
+  height: 100px;
+  width: 400px;
+  background-color: #831100;
+font-family: "Trirong", serif;
+font-size:50px;
+color: white;
+      margin-left: auto;
+  margin-right: auto;
+   
+
+}
+
