@@ -5,10 +5,10 @@ background-color: black;
 background-image: url('https://www.wallpapertip.com/wmimgs/146-1468180_scary-dark-forest-desktop-wallpaper-red-and-black.jpg');
   background-attachment: fixed; 
   background-size: cover;
-
 }
-.portfolio{
 
+.portfolio{
+margin-top: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -18,13 +18,11 @@ background-image: url('https://www.wallpapertip.com/wmimgs/146-1468180_scary-dar
     font-size: 25px;
     color:white;
     text-align: center;
-    position:relative;  top:-390px;
   font-family: "Trirong", serif;
-
 }
 .square{
-  height: 460px;
-  width: 468px;
+height: 460px;
+    width: 468px;
   background-color: #831100;
     display: block;
   margin-left: auto;
@@ -32,16 +30,44 @@ background-image: url('https://www.wallpapertip.com/wmimgs/146-1468180_scary-dar
     margin-top: 80px;
 }
 
+
 .button{
-  height: 100px;
-  width: 400px;
+  height: 50px;
+  width: 100px;
   background-color: #831100;
 font-family: "Trirong", serif;
-font-size:50px;
+font-size:20px;
 color: white;
       margin-left: auto;
-  margin-right: auto;
-   
+  margin-right: 55px;
+    margin-top: -300px;
+}
+.buttonCM{
+  height: 50px;
+  width: 100px;
+  background-color: #831100;
+font-family: "Trirong", serif;
+font-size:20px;
+color: white;
+      margin-left: auto;
+  margin-right: 65px;}
 
+.buttonG{
+  height: 50px;
+  width: 100px;
+  background-color: #831100;
+font-family: "Trirong", serif;
+font-size:20px;
+color: white;
+      margin-left: 69px;
+  margin-right: 55px;
 }
 
+.corner{
+    border-radius: 25px;
+  background: #831100;
+  padding: 20px; 
+  width: 1000px;
+  height: 150px; 
+    margin-top:-1000px;
+}
